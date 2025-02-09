@@ -1,0 +1,26 @@
+{
+  ScrollView;
+  layout_width='fill';--布局宽度
+  layout_height='fill';--布局高度
+id="背景ScrollView";
+    {
+    LinearLayout,
+    orientation="vertical",
+    layout_width="fill",
+    layout_height="fill",
+    id="背景LinearLayout";
+      {
+    TextView;
+    -- layout_width='wrap';
+    layout_height='fill';
+    layout_marginLeft='18dp';
+    layout_marginRight='18dp';
+    layout_marginBottom='18dp';
+    --Gravity='left|center';
+    textColor=颜色1;
+    BackgroundColor="#00000000";
+        id="对话历史TextView",
+    textSize='16.9sp';
+  };
+  }
+}
